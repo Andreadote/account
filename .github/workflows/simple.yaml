@@ -14,5 +14,4 @@ jobs:
       - name: multiple string
          run: |
            node -v
-           mpm -v
-           mvn -v
+           npm -v
