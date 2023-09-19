@@ -1,17 +1,19 @@
+name: Shell Commands
 
-name:  shell commands 
-
-on: [push]
+on:
+  push:
+    branches:
+      - main  # Adjust this to your desired branch
 
 jobs:
   run-shell-command:
-    runs: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
-      - name: checkout
-        uses: actions/checkouts@v3
-      - name: echo string
-         run: "Hello google@Andre what is your focus for today."
-      - name: multiple string
-         run: |
-           node -v
-           npm -v
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Echo String
+        run: echo "Hello google@Andre what is your focus for today."
+      - name: Multiple String
+        run: |
+          node -v
+          npm -v
