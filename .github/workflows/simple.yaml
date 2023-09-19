@@ -1,0 +1,18 @@
+
+name:  shell commands 
+
+on: [push]
+
+jobs:
+  run-shell-command:
+    runs: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkouts@v3
+      - name: echo string
+         run: "Hello google@Andre what is your focus for today."
+      - name: multiple string
+         run: |
+           node -v
+           mpm -v
+           mvn -v
