@@ -4,4 +4,4 @@ I was assigned a ticket to set up an eks-cluster to help our production environm
 excited to go with the terraform option because of his benefits and the infrastructure brings to the table. I wrote my telephone scripts including Terror for models of variables Everything that needed to be passed as variables 
 where passed as variables and with the help of Terraform I was able to set up production-grade Ek's cluster I did not just stop there so what I did
  I added what you call terraform Jenkinsfile so I have a Jenkins file.  In Jenkins, I'm able to trigger a job that is going to run in my terraform server meaning my terraform 
-server is now configured as a Jenkins slave so from Jenkins I can now deploy an entire EKS Cluster in AWS. When I was done with the project my manager called it automation on automation, Terraform brought automation to the table 
+server is now configured as a Jenkins slave so from Jenkins I can now deploy an entire EKS Cluster in AWS. When I was done with the project my manager called it automation on automation, Terraform brought automation to the table as well as Ansible. 
